@@ -7,6 +7,67 @@
   pointer-events: none;
 }
 
+.child-div {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.card-container {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cross-button {
+  bottom: 10px;
+  right: 10px;
+  color: red;
+}
+
+.card-total {
+  padding: 0px 20px 0px 20px;
+  border: 1px dotted red;
+  margin-left: 20px;
+}
+
+.card-div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-conatiner {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.table-header {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* td:nth-child(-n + 5) {
+  visibility: collapse;
+} */
+
+/* td:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)) {
+  visibility: collapse;
+} */
+
+.table-row {
+  border-bottom: 1px solid black;
+}
+
+.button-box {
+  margin: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
